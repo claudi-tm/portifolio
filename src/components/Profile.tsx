@@ -25,7 +25,7 @@ export function Profile() {
 						repellat cumque? Sit at debitis dolorem, fuga vero
 						corrupti quia?
 					</p>
-					<span className="flex flex-col sm:flex-row justify-center sm:justify-start gap-5">
+					<span className="flex flex-col md:flex-row justify-center sm:justify-start gap-5">
 						<Button text="Whatsapp">
 							{" "}
 							<RxChatBubble className="h-[20px] w-[20px]" />{" "}
