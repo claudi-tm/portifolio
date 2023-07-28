@@ -4,7 +4,7 @@ import { Button } from "./Button";
 export function Profile() {
 	return (
 		<>
-			<div className=" p-5 mt-8 flex flex-col items-center gap-10 sm:flex-row">
+			<div className=" p-5 mt-8 flex flex-col items-center gap-10 md:flex-row">
 				<img
 					className="rounded-full w-[100%] sm:max-w-[45%]"
 					src="https://avatars.githubusercontent.com/u/55026292?v=4"
