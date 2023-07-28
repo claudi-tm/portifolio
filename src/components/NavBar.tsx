@@ -6,7 +6,7 @@ export function NavBar() {
     const [open, setOpen] = useState(false);
     return (
 		<>
-			<nav className="bg-zinc-200 pb-2 pt-2 w-screen fixed left-0 top-0  md:px-20 md:flex items-center justify-between">
+			<nav className="bg-zinc-200 pb-2 pt-2 w-screen fixed left-0 top-0 md:px-20 md:flex items-center justify-between">
 				<h1 className="text-2xl pl-3 px-3  md:text-4xl font-bold">
 					<div className="border-b border-blue-700 transform transition-all duration-300">
 						Claudio <span className="  text-blue-600">Tomas</span>
