@@ -1,5 +1,5 @@
-import { Profile } from "./components/Profile";
-import { Projects } from "./components/Projects";
+// import { Profile } from "./components/Profile";
+// import { Projects } from "./components/Projects";
 
 import { NavBar } from "./components/NavBar";
 
