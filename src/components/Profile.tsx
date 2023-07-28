@@ -21,7 +21,7 @@ export function Profile() {
 						<strong>React JS</strong>, <strong>CSS</strong>{" "},
 						<strong>Tailwind</strong>, <strong>Javascript</strong>{" "},
 						<strong> JAVA</strong>. <br />
-						Neste mommento finalista do curso de Informática e
+						Neste momento finalista do curso de Informática e
 						Telecomunicações - ISUTC
 					</p>
 					<span className="flex flex-col md:flex-row justify-center sm:justify-start gap-5">
