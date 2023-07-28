@@ -4,9 +4,9 @@ import { Button } from "./Button";
 export function Profile() {
 	return (
 		<>
-			<div className=" p-5 flex flex-col items-center gap-10 sm:flex-row">
+			<div className=" p-5 mt-8 flex flex-col items-center gap-10 sm:flex-row">
 				<img
-					className="rounded-full w-[100%] sm:w-[30%]"
+					className="rounded-full w-[100%] sm:max-w-[45%]"
 					src="https://avatars.githubusercontent.com/u/55026292?v=4"
 					alt=""
 				/>
@@ -14,15 +14,18 @@ export function Profile() {
 					<h2 className="text-center text-xl sm:text-3xl sm:text-left ">
 						Desenvolvedor de Softwere | Web
 					</h2>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Necessitatibus modi soluta debitis dolorum tempora,
-					perferendis, aspernatur blanditiis voluptate libero sint ea
-					nesciunt vel distinctio accusantium labore corrupti ut,
-					excepturi doloribus? Lorem ipsum, dolor sit amet consectetur
-					adipisicing elit. Odio facere commodi animi. Minima soluta
-					quis omnis animi consequuntur est alias, repellat cumque?
-					Sit at debitis dolorem, fuga vero corrupti quia?
-					<span className="flex justify-center sm:justify-start gap-5">
+					<p className="text-base md:text-lg">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Necessitatibus modi soluta debitis dolorum tempora,
+						perferendis, aspernatur blanditiis voluptate libero sint
+						ea nesciunt vel distinctio accusantium labore corrupti
+						ut, excepturi doloribus? Lorem ipsum, dolor sit amet
+						consectetur adipisicing elit. Odio facere commodi animi.
+						Minima soluta quis omnis animi consequuntur est alias,
+						repellat cumque? Sit at debitis dolorem, fuga vero
+						corrupti quia?
+					</p>
+					<span className="flex flex-col sm:flex-row justify-center sm:justify-start gap-5">
 						<Button text="Whatsapp">
 							{" "}
 							<RxChatBubble className="h-[20px] w-[20px]" />{" "}
