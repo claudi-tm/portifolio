@@ -49,12 +49,8 @@ export const projects = [
 		title: "Calculadora",
 		description: (
 			<p style={{ lineHeight: "40px" }}>
-				Com as tecnologias abaixo e o editor de Texto Avançado foi
-				possivel conceber esta maravilha, capaz de criar listas
-				(numeradas e não numeradas), formatar texto usando o formato
-				base do notion(Titulo 1, Titulo 2, Titulo 3), para além das
-				funções basicas de um editor, mas chega de spoiler, teste voce
-				mesmo.⭐
+				O projecto iniciante de todo progamador, feita com amor, um
+				pouco de dor e bugs. Make some math.🔢
 			</p>
 		),
 		image: (
