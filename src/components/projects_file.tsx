@@ -6,17 +6,14 @@ export const projects = [
 		title: "UI-Twitter",
 		description: (
 			<p style={{ lineHeight: "40px" }}>
-				Com as tecnologias abaixo e o editor de Texto Avançado foi
-				possivel conceber esta maravilha, capaz de criar listas
-				(numeradas e não numeradas), formatar texto usando o formato
-				base do notion(Titulo 1, Titulo 2, Titulo 3), para além das
-				funções basicas de um editor, mas chega de spoiler, teste voce
-				mesmo.⭐
+				Com menos polemica que a sua versão oficial apresento a UI do
+				Twitter possivel conceber esta maravilha, faça o seu primeiro
+				tweet.🐦
 			</p>
 		),
 		image: (
 			<img
-				className="w-[100%] h-[100%] max-w-xl hover:p-2 lg:hover:scale-110 hover:border border-blue-600 hover:transform duration-1000"
+				className="w-[100%] h-[100%]  hover:p-2 lg:hover:scale-110 hover:border border-blue-600 hover:transform duration-1000"
 				src={Twitter}
 				alt=""
 			/>

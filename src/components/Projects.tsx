@@ -4,21 +4,21 @@ import { Button } from "./Button";
 import { projects } from "./projects_file.tsx";
 
 export function Projects() {
-	
-	
 	return (
 		<>
-			<h2 id="projects" className="text-3xl border-b-2 border-blue-400">Projectos</h2>
-			<div className="flex flex-col gap-4 items-center font-serif">
+			<h2 id="projects" className="text-3xl border-b-2 border-blue-400">
+				Projectos
+			</h2>
+			<div className="flex flex-col px-4 gap-4 items-center font-serif">
 				{projects.map((project) => (
 					<div
 						className=" flex flex-col p-4 px-8 text-justify lg:grid grid-cols-2 md:gap-10 rounded-md bg-zinc-100 "
 						key={project.title}
 					>
-						<div className="flex flex-col gap-2 items-center ">
+						<div className="flex text-justify flex-col gap-2 items-center justify-center">
 							<h3 className="text-2xl">{project.title}</h3>
 							<p>{project.description}</p>
-							<p className="flex gap-3 divide-x-2 divide-slate-700">
+							<p className="flex pb-4 md:p-0 gap-3 divide-x-2 divide-slate-700">
 								{project.techs.map((tech) => (
 									<span
 										className="font-semibold hover:scale-105 pl-2 hover:transform hover:duration-200 hover:text-blue-500"
@@ -34,7 +34,7 @@ export function Projects() {
 								<div>{project.image}</div>
 							</a>
 						</div>
-						<div className="flex gap-2 justify-center">
+						<div className="flex p-4 md:p-0 gap-2 justify-center">
 							<a href={project.url_production} target="_blank">
 								<Button text="Projecto">
 									<RxEyeOpen />
