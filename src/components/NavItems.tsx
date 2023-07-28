@@ -1,5 +1,6 @@
 interface NavItemsProps {
 	text: string;
+	url?: string;
 }
 
 export function NavItems(props: NavItemsProps) {
@@ -8,7 +9,8 @@ export function NavItems(props: NavItemsProps) {
 			<li>
 				<a
 					className=" pb-1 link link-underline link-underline-black text-lg hover:text-blue-500"
-					href=""
+					href={props.url}
+					target="_blank"
 				>
 					{props.text}
 				</a>

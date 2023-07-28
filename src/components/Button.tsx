@@ -1,14 +1,18 @@
 import { ComponentProps, ReactNode } from "react";
 
 interface ButtonProps extends ComponentProps<"button"> {
-    children?: ReactNode;
-    text: string;
+	children?: ReactNode;
+	text: string;
+	url?: string;
 }
 
 export function Button(props: ButtonProps) {
     return (
-        <>
-            <button className="p-2 border border-blue-600 rounded-md ">{ props.children }{ props.text }</button>
-        </>
-    )
+		<>
+			<button className="p-2 rounded-md flex items-center gap-1  border border-blue-600 hover:bg-blue-600 hover:text-zinc-50">
+				{props.children}
+				{props.text}
+			</button>
+		</>
+	);
 }
