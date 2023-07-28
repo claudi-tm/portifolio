@@ -9,19 +9,19 @@ export function Projects() {
 	return (
 		<>
 			<h2 id="projects" className="text-3xl border-b-2 border-blue-400">Projectos</h2>
-			<div className="flex flex-col gap-4 items-center">
+			<div className="flex flex-col gap-4 items-center font-serif">
 				{projects.map((project) => (
 					<div
-						className=" flex flex-col p-2  md:grid grid-cols-2 gap-5 rounded-md bg-zinc-100 "
+						className=" flex flex-col p-4 px-8 text-justify lg:grid grid-cols-2 md:gap-10 rounded-md bg-zinc-100 "
 						key={project.title}
 					>
 						<div className="flex flex-col gap-2 items-center ">
 							<h3 className="text-2xl">{project.title}</h3>
 							<p>{project.description}</p>
-							<p className="flex gap-3">
+							<p className="flex gap-3 divide-x-2 divide-slate-700">
 								{project.techs.map((tech) => (
 									<span
-										className="font-semibold hover:scale-105 hover:transform hover:duration-200 hover:text-blue-500"
+										className="font-semibold hover:scale-105 pl-2 hover:transform hover:duration-200 hover:text-blue-500"
 										key={tech.toString()}
 									>
 										{tech}
