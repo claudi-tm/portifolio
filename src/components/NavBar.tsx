@@ -28,8 +28,8 @@ export function NavBar() {
 					} md:opacity-100 opacity-100`}
 				>
 					<NavItems text="Projectos" url="projects" />
-					<NavItems text="Formação" url="formacao" />
-					<NavItems text="Contactos" url="contactos" />
+					<NavItems text="Formação" url="education" />
+					<NavItems text="Contactos" url="contact" />
 				</ul>
 			</nav>
 		</>

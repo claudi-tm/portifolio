@@ -15,15 +15,14 @@ export function Profile() {
 						Desenvolvedor de Softwere | Web
 					</h2>
 					<p className="text-base md:text-lg">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Necessitatibus modi soluta debitis dolorum tempora,
-						perferendis, aspernatur blanditiis voluptate libero sint
-						ea nesciunt vel distinctio accusantium labore corrupti
-						ut, excepturi doloribus? Lorem ipsum, dolor sit amet
-						consectetur adipisicing elit. Odio facere commodi animi.
-						Minima soluta quis omnis animi consequuntur est alias,
-						repellat cumque? Sit at debitis dolorem, fuga vero
-						corrupti quia?
+						Dev apaixonado por criar e desenvolver, transformar
+						ideias em coisas reais. Sempre disposto a aprender,
+						descobrir e superar novos desafios. Com habilades em{" "}
+						<strong>React JS</strong>, <strong>CSS</strong>{" "},
+						<strong>Tailwind</strong>, <strong>Javascript</strong>{" "},
+						<strong> JAVA</strong>. <br />
+						Neste mommento finalista do curso de Informática e
+						Telecomunicações - ISUTC
 					</p>
 					<span className="flex flex-col md:flex-row justify-center sm:justify-start gap-5">
 						<Button text="Whatsapp">
