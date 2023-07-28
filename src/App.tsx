@@ -8,10 +8,11 @@ export function App() {
 		<>
 			<NavBar />
 			<div className="px-20 py-5 flex flex-col gap-64 text-zinc-800">
-				<main className="flex flex-col gap-10">
+				mobile
+				{/* <main className="flex flex-col gap-10">
 					<Profile />
 					<Projects />
-				</main>
+				</main> */}
 			</div>
 		</>
 	);
