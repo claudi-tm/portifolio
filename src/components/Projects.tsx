@@ -8,7 +8,7 @@ export function Projects() {
 	
 	return (
 		<>
-			<h2 className="text-3xl border-b-2 border-blue-400">Projectos</h2>
+			<h2 id="projects" className="text-3xl border-b-2 border-blue-400">Projectos</h2>
 			<div className="flex flex-col gap-4 items-center">
 				{projects.map((project) => (
 					<div
