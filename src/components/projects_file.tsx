@@ -7,7 +7,7 @@ export const projects = [
 		description: "",
 		image: (
 			<img
-				className="hover:p-2 hover:scale-110 hover:border border-blue-600 hover:transform hover:duration-500"
+				className="max-w-xl hover:p-2 md:hover:scale-110 hover:border border-blue-600 hover:transform duration-1000"
 				src={Twitter}
 				alt=""
 			/>
@@ -21,7 +21,7 @@ export const projects = [
 		description: "",
 		image: (
 			<img
-				className="hover:p-2 hover:scale-110 hover:border border-blue-600 hover:transform hover:duration-500"
+				className="hover:p-2 md:hover:scale-110 hover:border border-blue-600 hover:transform duration-500"
 				src={Notion}
 				alt=""
 			/>
@@ -35,7 +35,7 @@ export const projects = [
 		description: "",
 		image: (
 			<img
-				className="hover:p-2 hover:scale-110 hover:border border-blue-600 hover:transform hover:duration-500"
+				className="hover:p-2 md:hover:scale-110 hover:border border-blue-600 hover:transform duration-500"
 				src={Calculadora}
 				alt=""
 			/>
