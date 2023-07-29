@@ -16,7 +16,7 @@ export function App() {
 					<Education />
 				</main>
 			</div>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	);
 }

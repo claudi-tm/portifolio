@@ -12,7 +12,7 @@ export function Projects() {
 			<div className="flex flex-col px-4 gap-4 items-center font-serif">
 				{projects.map((project) => (
 					<div
-						className=" flex flex-col p-4 px-8 text-justify lg:grid grid-cols-2 md:gap-10 rounded-md bg-zinc-100 "
+						className=" flex flex-col  p-4 px-8 text-justify lg:grid grid-cols-2 md:gap-10 rounded-md bg-zinc-100 "
 						key={project.title}
 					>
 						<div className="flex text-justify flex-col gap-2 items-center justify-center">
