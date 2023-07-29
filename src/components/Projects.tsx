@@ -10,6 +10,39 @@ export function Projects() {
 				Projectos
 			</h2>
 			<div className="flex flex-col px-4 gap-4 items-center font-serif">
+				<div className=" flex flex-col  p-4 px-8 text-justify lg:grid grid-cols-2 md:gap-10 rounded-md bg-zinc-100 ">
+					<div className="flex text-justify flex-col gap-2 items-center justify-center">
+						<h3 className="text-2xl">{projects[1].title}</h3>
+						<p>{projects[1].description}</p>
+						<p className="grid text-center grid-cols-2 md:flex pb-4 md:p-0 gap-3 md:divide-x-2 divide-slate-700">
+							{projects[1].techs.map((tech) => (
+								<span
+									className="font-semibold hover:scale-105 pl-2 hover:transform hover:duration-200 hover:text-blue-500"
+									key={tech.toString()}
+								>
+									{tech}
+								</span>
+							))}
+						</p>
+					</div>
+					<div>
+						<a href={projects[0].url_production} target="_blank">
+							<div>{projects[0].image}</div>
+						</a>
+					</div>
+					<div className="flex p-4 md:p-0 gap-2 justify-center">
+						<a href={projects[0].url_production} target="_blank">
+							<Button text="Projecto">
+								<RxEyeOpen />
+							</Button>
+						</a>
+						<a href={projects[0].url_code} target="_blank">
+							<Button text=" Codigo">
+								<RxCode />
+							</Button>
+						</a>
+					</div>
+				</div>
 				{projects.map((project) => (
 					<div
 						className=" flex flex-col  p-4 px-8 text-justify lg:grid grid-cols-2 md:gap-10 rounded-md bg-zinc-100 "
@@ -18,7 +51,7 @@ export function Projects() {
 						<div className="flex text-justify flex-col gap-2 items-center justify-center">
 							<h3 className="text-2xl">{project.title}</h3>
 							<p>{project.description}</p>
-							<p className="flex pb-4 md:p-0 gap-3 divide-x-2 divide-slate-700">
+							<p className="grid text-center grid-cols-2 md:flex pb-4 md:p-0 gap-3 md:divide-x-2 divide-slate-700">
 								{project.techs.map((tech) => (
 									<span
 										className="font-semibold hover:scale-105 pl-2 hover:transform hover:duration-200 hover:text-blue-500"
