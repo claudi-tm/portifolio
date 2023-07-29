@@ -3,7 +3,7 @@ import { Projects } from "./components/Projects";
 
 import { NavBar } from "./components/NavBar";
 import { Education } from "./components/Education";
-import { Footer } from "./components/Footer";
+// import { Footer } from "./components/Footer";
 
 export function App() {
 	return (
