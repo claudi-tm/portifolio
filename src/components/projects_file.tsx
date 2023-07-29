@@ -13,7 +13,7 @@ export const projects = [
 		),
 		image: (
 			<img
-				className="w-[100%] h-[100%]  hover:p-2 lg:hover:scale-110 hover:border border-blue-600 hover:transform duration-500"
+				className="w-[100%] h-[100%] hover:p-2 lg:hover:scale-110 hover:border border-blue-600 hover:transform duration-500"
 				src={Twitter}
 				alt=""
 			/>

@@ -3,15 +3,18 @@ import { RxGithubLogo, RxLinkedinLogo, RxMobile, RxPencil1 } from "react-icons/r
 export function Footer() {
 	return (
 		<>
-			<footer className="flex flex-col gap-8  items-center p-10 bg-slate-800 w-full text-zinc-200">
-				<div className="grid grid-cols-2 gap-16 bg-slate-800">
-					<p className="flex items-center">
+			<footer className="flex flex-col p-10 gap-8  items-center  bg-slate-800 w-full text-zinc-200">
+				<div className="grid grid-cols-1 w-full  bg-slate-800">
+					<p className="flex items-center justify-start">
 						Disponivel para novos trabalhos e no processo continuo
 						de aprendizagem. <br /> Entre contacto
 					</p>
 					<div>
-						<ul id="contact" className="flex flex-col items-start gap-3">
-							<li className="flex items-center gap-3">
+						<ul
+							id="contact"
+							className="flex p-3 flex-col items-start gap-3"
+						>
+							<li className="flex w-fit whitespace-normal items-center ">
 								{" "}
 								<RxPencil1 /> ccaducarlos@gmail.com
 							</li>

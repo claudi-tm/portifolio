@@ -8,7 +8,7 @@ export function Profile() {
 				<img
 					className="rounded-full w-[100%] sm:max-w-[45%]"
 					src="https://avatars.githubusercontent.com/u/55026292?v=4"
-					alt=""
+					alt="profile-picture"
 				/>
 				<aside className="flex flex-col	 justify-normal text-justify gap-5">
 					<h2 className="text-center text-xl sm:text-3xl sm:text-left ">
