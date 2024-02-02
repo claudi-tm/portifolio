@@ -6,7 +6,7 @@ import { projects } from "./projects_file.tsx";
 export function Projects() {
 	return (
 		<>
-			<h2 id="projects" className="text-3xl border-b-2 border-blue-400">
+			<h2 id="projects" className="text-3xl border-b-2 border-blue-400 font-palanquin">
 				Projectos
 			</h2>
 			<div className="flex flex-col px-4 gap-4 items-center font-serif">

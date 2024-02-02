@@ -5,7 +5,7 @@ import Certifcado3 from "../assets/cert3.png";
 export function Education() {
 	return (
 		<>
-			<h2 className="text-3xl border-b-2 border-blue-400">
+			<h2 className="text-3xl border-b-2 border-blue-400 font-palanquin">
 				Formação Técnica
 			</h2>
 			<div
