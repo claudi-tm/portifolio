@@ -1,6 +1,6 @@
 import Twitter from "../assets/twitter.png";
 import Notion from "../assets/notion.png";
-import Calculadora from "../assets/calculadora.png";
+import Nike from "../assets/nike.png";
 export const projects = [
 	{
 		title: "UI-Twitter",
@@ -46,24 +46,23 @@ export const projects = [
 		url_code: "https://github.com/claudi-tm/Notion-clone",
 	},
 	{
-		title: "Calculadora",
+		title: "Nike Landing",
 		description: (
 			<p style={{ lineHeight: "40px" }}>
-				O projecto iniciante de todo progamador, feita com amor, um
-				pouco de dor e bugs. Make some math.🔢
+				Explore a Nike: inovação, estilo e desempenho. Descubra a última
+				coleção de moda atlética. Junte-se a nós para viver o seu
+				melhor!.⭐
 			</p>
 		),
 		image: (
 			<img
 				className="w-[100%] h-[100%] hover:p-2 lg:hover:scale-110 hover:border border-blue-600 hover:transform duration-500"
-				src={Calculadora}
+				src={Nike}
 				alt=""
 			/>
 		),
 		techs: ["React JS", "Typescript", "Tailwindcss", "Vite"],
-		url_production:
-			"https://boracodar-jfx621piw-claudi-tm.vercel.app/calculator",
-		url_code:
-			"https://github.com/claudi-tm/boracodar/tree/main/src/app/calculator",
+		url_production: "https://nike-project-tau.vercel.app/",
+		url_code: "https://github.com/claudi-tm/nike-project",
 	},
 ];
