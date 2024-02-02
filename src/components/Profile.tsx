@@ -1,4 +1,4 @@
-import { RxChatBubble, RxLinkedinLogo, RxGithubLogo } from "react-icons/rx";
+import { RxLinkedinLogo, RxGithubLogo } from "react-icons/rx";
 import { Button } from "./Button";
 import Icon from "../assets/whatsapp.svg"
 
