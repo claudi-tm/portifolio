@@ -1,7 +1,7 @@
 import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
-import { SocialIcon } from "react-social-icons";
+
 import { Button } from "./Button";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export function Profile() {
 	return (
@@ -28,7 +28,7 @@ export function Profile() {
 				<span className="flex flex-col md:flex-row justify-center sm:justify-start gap-5">
 					<Button text="Whatsapp" url="https://wa.me/258842666372">
 						{/* <img src={Icon} alt="" className="h-[30px] w-[30px]" /> */}
-						<WhatsAppIcon/>
+						<WhatsAppIcon />
 					</Button>
 					<Button
 						text="LinkedIn"
