@@ -7,12 +7,14 @@ interface ButtonProps extends ComponentProps<"button"> {
 }
 
 export function Button(props: ButtonProps) {
-    return (
-		<>
-			<button className="p-2 rounded-md flex items-center justify-center gap-1  border border-blue-600 hover:bg-blue-500 hover:text-zinc-50">
-				{props.children}
-				{props.text}
-			</button>
-		</>
+	return (
+		<a
+			className="p-2 rounded-md flex items-center justify-center gap-1  border border-blue-600 hover:bg-blue-500 hover:text-zinc-50"
+			href={props.url}
+			target="_blank"
+		>
+			{props.children}
+			{props.text}
+		</a>
 	);
 }
