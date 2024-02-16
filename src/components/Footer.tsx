@@ -1,4 +1,9 @@
-import { RxGithubLogo, RxLinkedinLogo, RxMobile, RxPencil1 } from "react-icons/rx";
+import {
+	RxGithubLogo,
+	RxLinkedinLogo,
+	RxMobile,
+	RxPencil1,
+} from "react-icons/rx";
 
 export function Footer() {
 	return (
@@ -7,8 +12,9 @@ export function Footer() {
 				<div className="grid grid-cols-1 w-full  bg-slate-800">
 					<p className="flex items-center justify-start">
 						Disponivel para novos trabalhos e no processo continuo
-						de aprendizagem. <br /> Entre contacto
+						de aprendizagem.
 					</p>
+					<p>Entre em contacto</p>
 					<div>
 						<ul
 							id="contact"
