@@ -1,10 +1,18 @@
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { RxCross2, RxHamburgerMenu } from "react-icons/rx";
 import { NavItems } from "./NavItems";
-import { useState } from "react";
 
 export function NavBar() {
-    const [open, setOpen] = useState(false);
-    return (
+	const [open, setOpen] = useState(false);
+	const [t, i18n] = useTranslation("global");
+	const [currentLanguage, setCurrentLanguage] = useState("en");
+	const handleChangeLanguage = () => {
+		const newLanguage = currentLanguage === "en" ? "pt" : "en";
+		i18n.changeLanguage(newLanguage);
+		setCurrentLanguage(newLanguage);
+	};
+	return (
 		<nav className="bg-zinc-200 pb-2 pt-2 w-full fixed left-0 top-0 md:px-20 md:flex items-center justify-between">
 			<h1 className="text-2xl pl-3 px-3  md:text-4xl  font-montserrat">
 				<div className="border-b border-blue-700 transform transition-all duration-300 ">
@@ -26,9 +34,14 @@ export function NavBar() {
 					open ? "top-8 opacity-100" : "top-[-590px]"
 				} md:opacity-100 opacity-100`}
 			>
-				<NavItems text="Projectos" url="projects" />
-				<NavItems text="Formação" url="education" />
-				<NavItems text="Contactos" url="contact" />
+				<NavItems text={t("navbar.link1")} url="projects" />
+				<NavItems text={t("navbar.link2")} url="education" />
+				<NavItems text={t("navbar.link3")} url="contact" />
+				<input
+					type="button"
+					value="Language"
+					onClick={handleChangeLanguage}
+				/>
 			</ul>
 		</nav>
 	);

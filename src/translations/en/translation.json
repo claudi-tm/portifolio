@@ -1,4 +1,9 @@
 {
+	"navbar": {
+		"link1": "Projectos",
+		"link2": "Formação",
+		"link3": "Contactos"
+	},
 	"profile": {
 		"h2": "Desenvolvedor de Software | Web",
 		"p": "Dev apaixonado por criar e desenvolver, transformar ideias em coisas reais. Sempre disposto a aprender, descobrir e superar novos desafios. Com habilades em React JS, CSS , Tailwind, Javascript , JAVA. Neste momento finalista do curso de Informática e Telecomunicações - ISUTC"

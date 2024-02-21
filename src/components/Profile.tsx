@@ -1,9 +1,12 @@
 import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 
-import { Button } from "./Button";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { Button } from "./Button";
 
 export function Profile() {
+	const [t, i18n] = useTranslation("global");
 	return (
 		<div className=" p-5 mt-8 flex flex-col items-center gap-10 md:flex-row ">
 			<img
@@ -13,7 +16,7 @@ export function Profile() {
 			/>
 			<aside className="flex flex-col	 justify-normal text-justify gap-5">
 				<h2 className="text-center text-xl sm:text-3xl sm:text-left font-montserrat">
-					Desenvolvedor de Software | Web
+					{t("profile.header")}
 				</h2>
 				<p className="text-base md:text-lg max-w-xl font-palanquin text-slate-500">
 					Dev apaixonado por criar e desenvolver, transformar ideias

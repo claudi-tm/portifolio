@@ -1,5 +1,10 @@
 {
-    "profile": {
-        "header": "Software | Web Developer"
-    }
+	"navbar": {
+		"link1": "Projects",
+		"link2": "Education",
+		"link3": "Contacts"
+	},
+	"profile": {
+		"header": "Software | Web Developer"
+	}
 }
