@@ -1,8 +1,8 @@
+import TranslateIcon from "@mui/icons-material/Translate";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { RxCross2, RxHamburgerMenu } from "react-icons/rx";
 import { NavItems } from "./NavItems";
-
 export function NavBar() {
 	const [open, setOpen] = useState(false);
 	const [t, i18n] = useTranslation("global");
@@ -37,11 +37,15 @@ export function NavBar() {
 				<NavItems text={t("navbar.link1")} url="projects" />
 				<NavItems text={t("navbar.link2")} url="education" />
 				<NavItems text={t("navbar.link3")} url="contact" />
-				<input
-					type="button"
-					value="Language"
-					onClick={handleChangeLanguage}
-				/>
+				<button onClick={handleChangeLanguage}>
+					<TranslateIcon
+						sx={{
+							"&:hover": {
+								color: "#2563EB", // Change to desired color on hover
+							},
+						}}
+					/>
+				</button>
 			</ul>
 		</nav>
 	);

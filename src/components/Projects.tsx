@@ -22,7 +22,7 @@ export function Projects() {
 					>
 						<div className="flex text-justify flex-col gap-2 items-center justify-center">
 							<h3 className="text-2xl">{project.title}</h3>
-							<p className="font-palanquin ">
+							<p className="font-palanquin leading-loose">
 								{t(`projects.project_${index}`)}
 							</p>
 							<p className="grid text-center grid-cols-2 md:flex pb-4 md:p-0 gap-3 md:divide-x-2 divide-slate-700">
