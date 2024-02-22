@@ -9,10 +9,11 @@
 		"p": "Dev passionate about creating and developing, turning ideas into real things. Always willing to learn, discover and overcome new challenges. With skills in React JS, CSS, Tailwind, Javascript, JAVA. At the moment finalist of the Bachelor's Degree in Computer Engineering and Telecommunications - ISUTC"
 	},
 	"education": {
-		"h2": "Technical Education"
+		"title": "Technical Education"
 	},
 
 	"projects": {
+		"title": "Projects",
 		"project_0": "With less controversy than its official version, I present the UI of Twitter, a wonder that can be conceived. Make your first tweet. 🐦",
 		"project_1": "With the technologies below and the Advanced Text Editor, it was possible to conceive this wonder, capable of creating lists (numbered and unnumbered), formatting text using the base notion format (Title 1, Title 2, Title 3), in addition to the basic functions of an editor, but enough of spoilers, test it yourself. ⭐",
 		"project_2": "Explore Nike: innovation, style, and performance. Discover the latest collection of athletic fashion. Join us to live your best life! ⭐"
@@ -22,6 +23,7 @@
 		"btn2": "Code"
 	},
 	"footer": {
-		"p": "Available for new projects and in the continuous learning process."
+		"p": "Available for new projects and in the continuous learning process.",
+		"contact": "Find me at:"
 	}
 }

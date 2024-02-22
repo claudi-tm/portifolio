@@ -12,7 +12,7 @@ export function Projects() {
 				id="projects"
 				className="text-3xl border-b-2 border-blue-400 font-palanquin"
 			>
-				Projectos
+				{t("projects.title")}
 			</h2>
 			<div className="flex flex-col px-4 gap-4 items-center ">
 				{projects.map((project, index) => (

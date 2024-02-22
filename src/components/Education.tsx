@@ -1,12 +1,14 @@
+import { useTranslation } from "react-i18next";
 import Certifcado1 from "../assets/cert1.png";
 import Certifcado2 from "../assets/cert2.png";
 import Certifcado3 from "../assets/cert3.png";
 
 export function Education() {
+	const [t] = useTranslation("global");
 	return (
 		<>
 			<h2 className="text-3xl border-b-2 border-blue-400 font-palanquin">
-				Formação Técnica
+				{t("education.title")}
 			</h2>
 			<div
 				id="education"
