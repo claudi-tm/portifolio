@@ -9,8 +9,9 @@ export function Profile() {
 	return (
 		<div className=" p-5 mt-8 flex flex-col items-center gap-10 md:flex-row ">
 			<img
-				className="rounded-md md:w-45 lg:w-35 "
+				className="rounded-md w-[50%]  md:w-45 lg:w-35 "
 				src="https://avatars.githubusercontent.com/u/55026292?v=4"
+				// src="https://i.ibb.co/BjNZNfZ/photo1708591498.jpg"
 				alt="profile"
 			/>
 			<aside className="flex flex-col	 justify-normal text-justify gap-5">
