@@ -1,7 +1,9 @@
 import Twitter from "../assets/twitter.png";
 import Notion from "../assets/notion.png";
 import Nike from "../assets/nike.png";
+import { useTranslation } from "react-i18next";
 export const projects = [
+	
 	{
 		title: "UI-Twitter",
 		description: (

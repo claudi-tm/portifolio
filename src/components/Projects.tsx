@@ -1,9 +1,11 @@
 import { RxCode, RxEyeOpen } from "react-icons/rx";
 
+import { useTranslation } from "react-i18next";
 import { Button } from "./Button";
 import { projects } from "./projects_file.tsx";
 
 export function Projects() {
+	const [t] = useTranslation("global");
 	return (
 		<>
 			<h2
@@ -13,7 +15,7 @@ export function Projects() {
 				Projectos
 			</h2>
 			<div className="flex flex-col px-4 gap-4 items-center ">
-				{projects.map((project) => (
+				{projects.map((project, index) => (
 					<div
 						className=" flex flex-col  p-4 px-8 text-justify lg:grid grid-cols-2 md:gap-10 rounded-md bg-zinc-100 "
 						key={project.title}
@@ -21,7 +23,7 @@ export function Projects() {
 						<div className="flex text-justify flex-col gap-2 items-center justify-center">
 							<h3 className="text-2xl">{project.title}</h3>
 							<p className="font-palanquin ">
-								{project.description}
+								{t(`projects.project_${index}`)}
 							</p>
 							<p className="grid text-center grid-cols-2 md:flex pb-4 md:p-0 gap-3 md:divide-x-2 divide-slate-700">
 								{project.techs.map((tech) => (
@@ -41,12 +43,12 @@ export function Projects() {
 						</div>
 						<div className="flex p-4 md:p-0 gap-2 justify-center">
 							<a href={project.url_production} target="_blank">
-								<Button text="Projecto">
+								<Button text={t(`button.btn1`)}>
 									<RxEyeOpen />
 								</Button>
 							</a>
 							<a href={project.url_code} target="_blank">
-								<Button text=" Codigo">
+								<Button text={t(`button.btn2`)}>
 									<RxCode />
 								</Button>
 							</a>

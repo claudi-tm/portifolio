@@ -5,11 +5,22 @@
 		"link3": "Contactos"
 	},
 	"profile": {
-		"h2": "Desenvolvedor de Software | Web",
-		"p": "Dev apaixonado por criar e desenvolver, transformar ideias em coisas reais. Sempre disposto a aprender, descobrir e superar novos desafios. Com habilades em React JS, CSS , Tailwind, Javascript , JAVA. Neste momento finalista do curso de Informática e Telecomunicações - ISUTC"
+		"header": "Desenvolvedor de Software | Web",
+		"p": "Dev apaixonado por criar e desenvolver, transformar ideias em coisas reais. Sempre disposto a aprender, descobrir e superar novos desafios. Com habilidades em React JS, CSS , Tailwind, Javascript , JAVA. Neste momento finalista do curso de Licenciatura em Engenharia Informática e Telecomunicações - ISUTC"
 	},
 	"education": {
 		"h2": "Formação Técnica"
+	},
+
+	"projects": {
+		"project_0": "Com menos polemica que a sua versão oficial apresento a UI do Twitter possivel conceber esta maravilha, faça o seu primeiro tweet.🐦",
+		"project_1": "Com as tecnologias abaixo e o editor de Texto Avançado foi possivel conceber esta maravilha, capaz de criar listas (numeradas e não numeradas), formatar texto usando o formato base do notion(Titulo 1, Titulo 2, Titulo 3), para além das funções basicas de um editor, mas chega de spoiler, teste voce mesmo.⭐",
+		"project_2": "Explore a Nike: inovação, estilo e desempenho. Descubra a última coleção da moda atlética. Junte-se a nós para viver o seu melhor!.⭐"
+	},
+
+	"button": {
+		"btn1": "Projecto",
+		"btn2": "codigo"
 	},
 	"footer": {
 		"p": "Disponivel para novos trabalhos e no processo continuo de aprendizagem."

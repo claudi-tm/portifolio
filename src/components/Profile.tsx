@@ -1,12 +1,11 @@
 import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "./Button";
 
 export function Profile() {
-	const [t, i18n] = useTranslation("global");
+	const [t] = useTranslation("global");
 	return (
 		<div className=" p-5 mt-8 flex flex-col items-center gap-10 md:flex-row ">
 			<img
@@ -19,14 +18,7 @@ export function Profile() {
 					{t("profile.header")}
 				</h2>
 				<p className="text-base md:text-lg max-w-xl font-palanquin text-slate-500">
-					Dev apaixonado por criar e desenvolver, transformar ideias
-					em coisas reais. Sempre disposto a aprender, descobrir e
-					superar novos desafios. Com habilades em{" "}
-					<strong>React JS</strong>, <strong>CSS</strong> ,
-					<strong>Tailwind</strong>, <strong>Javascript</strong> ,
-					<strong> JAVA</strong>. <br />
-					Neste momento finalista do curso de Informática e
-					Telecomunicações - ISUTC
+					{t("profile.p")}
 				</p>
 				<span className="flex flex-col md:flex-row justify-center sm:justify-start gap-5">
 					<Button text="Whatsapp" url="https://wa.me/258842666372">
